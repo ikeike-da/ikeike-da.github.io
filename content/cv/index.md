@@ -29,6 +29,6 @@ Advisor: Prof. Isao Ono
 | Period | Position / Institution |
 |---|---|
 | Apr 2026 – Present | Research Fellowships for Young Scientists DC2, Japan Society for the Promotion of Science (JSPS) |
-| Aug 2025 – Mar 2026 | Research Intern, Cyber Agent |
+| Aug 2025 – Mar 2026 | Research Intern, CyberAgent |
 | Apr 2023 – Mar 2025 | Research Assistant, Institute of Science Tokyo |
 | Jan 2023 – Mar 2023 | Research Assistant, Tokyo Institute of Technology |

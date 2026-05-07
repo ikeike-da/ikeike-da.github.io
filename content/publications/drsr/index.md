@@ -17,8 +17,7 @@ editPost:
 ---
 
 ##### Citation
-
-Koki Ikeda, Masahiro Nomura and Ryoki Hamano. 2026. "Diversified Residual Symbolic Regression." In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '26). Association for Computing Machinery, 9 pages. https://doi.org/10.1145/3795095.3805087
+{{% pub_drsr %}}
 
 <!-- ```latex
 ``` -->

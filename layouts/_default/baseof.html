@@ -20,6 +20,7 @@
     {{- if not .IsHome  }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}
+    {{- partial "language_switch.html" . -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>

@@ -2,6 +2,8 @@ baseURL: "https://ikeike-da.github.io/"
 title: Koki Ikeda
 theme: PaperMod
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
@@ -96,3 +98,43 @@ markup:
         endLevel: 2
         ordered: false
         startLevel: 2
+
+languages:
+    en:
+        label: English
+        weight: 1
+    ja:
+        label: 日本語
+        weight: 2
+        title: 池田晃毅
+        menu:
+            main:
+                - name: 研究業績
+                  url: publications/
+                  weight: 2
+                - name: 経歴
+                  url: cv/
+                  weight: 3
+                - name: 連絡先
+                  url: contact/
+                  weight: 4
+        params:
+            label:
+                text: "池田晃毅"
+                icon: favicon.ico
+                iconHeight: 18
+            description: "ブラックボックス最適化と進化計算の研究に取り組んでいる博士後期課程の学生です。"
+            profileMode:
+                  enabled: true
+                  title: 池田晃毅
+                  subtitle: "東京科学大学 情報工学系の博士後期課程学生です。混合変数ブラックボックス最適化と進化計算、特に共分散行列適応進化戦略（CMA-ES）に基づく手法を研究しています。"
+                  imageUrl: "picture.jpeg"
+                  imageWidth: 160
+                  imageHeight: 160
+                  buttons:
+                    - name: 研究業績
+                      url: publications/
+                    - name: 経歴
+                      url: cv/
+                    - name: 連絡先
+                      url: contact/

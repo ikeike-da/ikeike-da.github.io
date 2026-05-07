@@ -1,0 +1,27 @@
+{{- if gt (len .AllTranslations) 1 }}
+<nav class="site-lang-switch {{ if .IsHome }}site-lang-switch-home{{ end }}" aria-label="Language switcher">
+    <button class="site-lang-trigger" type="button" aria-label="Language" title="Language">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M2 12h20"></path>
+            <path d="M4.5 6c2.5 1.5 12.5 1.5 15 0"></path>
+            <path d="M4.5 18c2.5-1.5 12.5-1.5 15 0"></path>
+            <path d="M12 2a15.3 15.3 0 0 1 0 20"></path>
+            <path d="M12 2a15.3 15.3 0 0 0 0 20"></path>
+        </svg>
+    </button>
+    <ul>
+        {{- range sort .AllTranslations "Language.Weight" }}
+        <li>
+            {{- if eq .Lang $.Lang }}
+            <span class="current" aria-current="page">{{ .Language.Label | default (.Lang | title) }}</span>
+            {{- else }}
+            <a href="{{ .Permalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.Label | default (.Lang |
+                title) }}</a>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ul>
+</nav>
+{{- end }}

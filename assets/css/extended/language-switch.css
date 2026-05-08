@@ -1,7 +1,11 @@
 .site-lang-switch {
+    --lang-switch-right: 28px;
+}
+
+.site-lang-switch {
     display: flex;
     justify-content: flex-end;
-    margin: 6px 18px 0 auto;
+    margin: 6px var(--lang-switch-right) 0 auto;
     position: relative;
     width: fit-content;
     z-index: 20;
@@ -10,7 +14,7 @@
 .site-lang-switch-home {
     margin: 0;
     position: absolute;
-    right: 18px;
+    right: var(--lang-switch-right);
     top: 18px;
 }
 
@@ -84,6 +88,6 @@
 
 @media (max-width: 768px) {
     .site-lang-switch {
-        margin: 2px 12px 0 auto;
+        --lang-switch-right: 22px;
     }
 }

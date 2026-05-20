@@ -14,15 +14,18 @@ taxonomies:
 
 menu:
     main:
+        - name: Research
+          url: research/
+          weight: 2
         - name: Publications
           url: publications/
-          weight: 2
+          weight: 3
         - name: CV
           url: cv/
-          weight: 3
+          weight: 4
         - name: Contact
           url: contact/
-          weight: 4
+          weight: 5
 
 params:
     description: "Ph.D. student in computer science working on black-box optimization and evolutionary computation."
@@ -40,7 +43,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["publications","cv","contact"]
+    MainSections: ["research","publications","cv","contact"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -56,6 +59,8 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: Research
+              url: research/
             - name: Publications
               url: publications/
             - name: CV
@@ -109,15 +114,18 @@ languages:
         title: 池田晃毅
         menu:
             main:
+                - name: 研究紹介
+                  url: research/
+                  weight: 2
                 - name: 研究業績
                   url: publications/
-                  weight: 2
+                  weight: 3
                 - name: 経歴
                   url: cv/
-                  weight: 3
+                  weight: 4
                 - name: 連絡先
                   url: contact/
-                  weight: 4
+                  weight: 5
         params:
             label:
                 text: "池田晃毅"
@@ -132,6 +140,8 @@ languages:
                   imageWidth: 160
                   imageHeight: 160
                   buttons:
+                    - name: 研究紹介
+                      url: research/
                     - name: 研究業績
                       url: publications/
                     - name: 経歴

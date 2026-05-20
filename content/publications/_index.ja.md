@@ -3,7 +3,7 @@ title: "研究業績"
 description: "池田晃毅の研究業績"
 ---
 
-## 国際会議論文
+## 査読付き論文（国際会議）
 {{% selected_publications %}}
 
 

@@ -77,6 +77,8 @@ params:
           url: mailto:ikeda.k@ic.comp.isct.ac.jp
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=CUco1x8AAAAJ
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/koki-ikeda-313554412/
         - name: ORCID
           url: https://orcid.org/0009-0004-9588-3770
         - name: GitHub

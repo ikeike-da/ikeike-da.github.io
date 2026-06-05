@@ -14,6 +14,7 @@ ikeda.k [at] ic.comp.isct.ac.jp
 
 #### Links
 - [Google Scholar](https://scholar.google.com/citations?user=CUco1x8AAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/koki-ikeda-313554412/)
 - [ORCID](https://orcid.org/0009-0004-9588-3770)
 - [GitHub](https://github.com/ikeike-da)
 
